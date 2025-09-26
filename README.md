@@ -22,7 +22,7 @@ The tool is designed as a **Cyber Security mini project** to demonstrate real-ti
 - Configures suspicious IPs, log file, and packet capture count.
 - Contains log_event() to record suspicious activities both in the console and a report file.
 - Contains analyze_packet() to process each packet:
--  Detects TCP SYN scans.
--  Identifies suspicious source IPs.
--  Displays basic packet details (protocol, source, destination).
+-      Detects TCP SYN scans.
+-      Identifies suspicious source IPs.
+-      Displays basic packet details (protocol, source, destination).
 -  Starts live packet capture using scapy.sniff() and stops after capturing the configured number of packets.
