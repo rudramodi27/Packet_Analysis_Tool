@@ -40,3 +40,11 @@ The tool is designed as a **Cyber Security mini project** to demonstrate real-ti
 -- Flags suspicious source IPs.
 -- Detects TCP SYN scan attempts (possible port scan activity).
 - Uses scapy.sniff() to capture 50 packets and analyze them in real-time.
+
+# reporting.py
+
+- Handles logging and reporting of suspicious events.
+- Defines log_event() function:
+-- Appends each event to a text file (packet_analysis_report.txt).
+-- Adds a timestamp for every entry.
+- Can be imported into other modules (like main.py) for consistent reporting.
