@@ -15,7 +15,5 @@ The tool is designed as a **Cyber Security mini project** to demonstrate real-ti
 - Identify potential threats such as DoS/DDoS, malicious packets, etc.
 - Simple and lightweight command-line interface
 
-- 
 - # Install dependencies
-- 
 - pip install scapy
