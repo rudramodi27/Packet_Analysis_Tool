@@ -32,3 +32,11 @@ The tool is designed as a **Cyber Security mini project** to demonstrate real-ti
 -  Uses scapy.sniff() to capture 50 packets by default.
 -  Defines packet_capture() function that prints a short summary of each packet as it is captured.
 -  Works as a standalone module for basic packet sniffing.
+
+# packet_analysis.py
+- Focuses on analyzing captured packets.
+- Defiine a list of suspicious IPs to monitor.
+- analyze_packet() function checks each packet:
+-- Flags suspicious source IPs.
+-- Detects TCP SYN scan attempts (possible port scan activity).
+- Uses scapy.sniff() to capture 50 packets and analyze them in real-time.
