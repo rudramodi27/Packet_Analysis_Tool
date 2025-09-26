@@ -48,3 +48,6 @@ The tool is designed as a **Cyber Security mini project** to demonstrate real-ti
 -- Appends each event to a text file (packet_analysis_report.txt).
 -- Adds a timestamp for every entry.
 - Can be imported into other modules (like main.py) for consistent reporting.
+- Example entries look like:
+-     2025-09-26 13:45:22.123456 - [!] Suspicious IP detected: 192.168.1.100
+-     2025-09-26 13:45:23.654321 - [!] TCP SYN Scan attempt from 10.0.0.50 to 192.168.1.20
